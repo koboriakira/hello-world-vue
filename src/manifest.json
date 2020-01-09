@@ -1,0 +1,11 @@
+{
+  "name": "kobori_test",
+  "short_name": "kt0106",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "./index.html",
+  "icons": null,
+  "splash_pages": null
+}

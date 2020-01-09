@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "npm run build && git add -u docs/* && git commit -m \"release\" && git push origin master"
   },
   "dependencies": {
     "core-js": "^3.4.4",
@@ -15,7 +16,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
-    "@vue/cli-plugin-pwa": "^4.1.0",
+    "@vue/cli-plugin-pwa": "^4.1.2",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
